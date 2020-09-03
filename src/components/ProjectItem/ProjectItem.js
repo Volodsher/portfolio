@@ -2,7 +2,6 @@ import React from 'react';
 import './ProjectItem.css';
 
 function ProjectItem({ name, url, imageUrl, technologies, urlCode }) {
-  console.log(this);
   return (
     <div className="projectItem">
       <a href={url}>

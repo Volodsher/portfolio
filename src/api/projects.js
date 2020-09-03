@@ -31,6 +31,6 @@ export const projects = [
     technologies: 'React.js, JS, CSS, JSX',
     urlCode: 'https://github.com/Volodsher/layout_dia/tree/dvlpr-dia',
   },
-]
+];
 
 export default projects;

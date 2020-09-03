@@ -3,8 +3,8 @@ import './ProjectList.css';
 import ProjectItem from '../ProjectItem/ProjectItem';
 
 export const ProjectList = ({ projects }) => {
-  let listOfProjects = projects.map((project, numb) => {
-    return <ProjectItem
+  const listOfProjects = projects.map((project, numb) => (
+    <ProjectItem
       key={project.id}
       name={project.name}
       url={project.url}
@@ -12,13 +12,13 @@ export const ProjectList = ({ projects }) => {
       imageUrl={project.imageUrl}
       technologies={project.technologies}
     />
-  });
+  ));
 
   return (
     <div className="projectList">
       {listOfProjects}
     </div>
-  )
+  );
 };
 
 export default ProjectList;
