@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="app">
       <h1 className="header">
-        Volodsher's Portfolio
+        Volodsher&rsquo;s Portfolio
       </h1>
       <ProjectList projects={projects} />
     </div>
