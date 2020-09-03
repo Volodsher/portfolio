@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.94478f03.chunk.css",
+    "main.js": "/static/js/main.88ccfd33.chunk.js",
+    "main.js.map": "/static/js/main.88ccfd33.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.ca42dc3b.chunk.js": "/static/js/2.ca42dc3b.chunk.js",
+    "static/js/2.ca42dc3b.chunk.js.map": "/static/js/2.ca42dc3b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a62a1fec12809189dfbf7b07c1ce8e2d.js": "/precache-manifest.a62a1fec12809189dfbf7b07c1ce8e2d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.94478f03.chunk.css.map": "/static/css/main.94478f03.chunk.css.map",
+    "static/js/2.ca42dc3b.chunk.js.LICENSE.txt": "/static/js/2.ca42dc3b.chunk.js.LICENSE.txt",
+    "static/media/art.png": "/static/media/art.547af8d5.png",
+    "static/media/dia.png": "/static/media/dia.32e265c4.png",
+    "static/media/miami.png": "/static/media/miami.d7bfb372.png",
+    "static/media/todos.png": "/static/media/todos.7a9c12aa.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/2.ca42dc3b.chunk.js",
+    "static/css/main.94478f03.chunk.css",
+    "static/js/main.88ccfd33.chunk.js"
+  ]
+}
