@@ -1,0 +1,42 @@
+/* .projectItem {
+  padding: 10px;
+  height: 300px;
+  width: 200px;
+  margin: 10px;
+  border: 1px solid gray;
+  border-radius: 10px; 
+} */
+
+.projectItem {
+  top: 0;
+  position: relative;
+  /* max-width: 200px;
+  min-width: 150px; */
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 15px;
+  text-decoration: none;
+  color: rgb(41, 40, 40);
+  transition: top 0.2s ease;
+  flex-basis: 400px;
+  /* flex-grow: 1; */
+  /* height: 300px; */
+  text-decoration: none;
+}
+
+.containerLink {
+  text-decoration: none;
+  color: rgb(41, 40, 40);
+}
+
+.projectItem:hover {
+  top: -5px;
+}
+
+.projectImage {
+  width: 100%;
+}
+
+.container {
+  padding: 10px;
+}
