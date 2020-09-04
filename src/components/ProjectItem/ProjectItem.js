@@ -7,7 +7,7 @@ function ProjectItem({ name, url, imageUrl, technologies, urlCode }) {
       <a href={url}>
         <img
           className="projectImage"
-          src={require(`../../images/${imageUrl}.png`)}
+          src={imageUrl}
           alt=""
         />
       </a>
@@ -18,8 +18,7 @@ function ProjectItem({ name, url, imageUrl, technologies, urlCode }) {
           </a>
         </h3>
         <h4>
-          <a className="containerLink" href={urlCode}
->
+          <a className="containerLink" href={urlCode}>
             {urlCode.length > 0 ? 'Review code' : ''}
           </a>
         </h4>

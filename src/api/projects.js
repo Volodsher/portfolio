@@ -1,9 +1,14 @@
+import art from '../images/art.png';
+import todos from '../images/todos.png';
+import miami from '../images/miami.png';
+import dia from '../images/dia.png';
+
 export const projects = [
   {
     id: 0,
     name: 'Art project',
     url: 'http://chaykovska.com.ua',
-    imageUrl: 'art',
+    imageUrl: art,
     technologies: 'React.js, JS, CSS, JSX',
     urlCode: '',
   },
@@ -11,7 +16,7 @@ export const projects = [
     id: 1,
     name: 'Todo app',
     url: 'https://volodsher.github.io/react_todo-app/',
-    imageUrl: 'todos',
+    imageUrl: todos,
     technologies: 'React.js, JS, CSS, JSX',
     urlCode: 'https://github.com/Volodsher/react_todo-app/tree/dvlpr-todoApp',
   },
@@ -19,7 +24,7 @@ export const projects = [
     id: 2,
     name: 'Layout Miami',
     url: 'https://volodsher.github.io/layout_miami/',
-    imageUrl: 'miami',
+    imageUrl: miami,
     technologies: 'React.js, JS, CSS, JSX',
     urlCode: 'https://github.com/Volodsher/layout_miami/tree/dvlpr-miami-v',
   },
@@ -27,7 +32,7 @@ export const projects = [
     id: 3,
     name: 'Layout Dia',
     url: 'https://volodsher.github.io/layout_dia/',
-    imageUrl: 'dia',
+    imageUrl: dia,
     technologies: 'React.js, JS, CSS, JSX',
     urlCode: 'https://github.com/Volodsher/layout_dia/tree/dvlpr-dia',
   },
