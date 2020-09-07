@@ -15,4 +15,16 @@ function App() {
   );
 }
 
+// App.propTypes = {
+//   projects: PropTypes.arrayOf(
+//     PropTypes.shape({
+//       name: PropTypes.string.isRequired,
+//       url: PropTypes.string.isRequired,
+//       imageUrl: PropTypes.string.isRequired,
+//       technologies: PropTypes.string.isRequired,
+//       urlCode: PropTypes.string.isRequired,
+//     }),
+//   ).isRequired,
+// };
+
 export default App;

@@ -1,5 +1,6 @@
 import React from 'react';
 import './ProjectItem.css';
+import PropTypes from 'prop-types';
 
 function ProjectItem({ name, url, imageUrl, technologies, urlCode }) {
   return (
@@ -29,5 +30,13 @@ function ProjectItem({ name, url, imageUrl, technologies, urlCode }) {
     </div>
   );
 }
+
+ProjectItem.propTypes = {
+  name: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired,
+  imageUrl: PropTypes.string.isRequired,
+  technologies: PropTypes.string.isRequired,
+  urlCode: PropTypes.string.isRequired,
+};
 
 export default ProjectItem;
