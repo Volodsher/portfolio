@@ -1,6 +1,8 @@
 import React from 'react';
 import './ProjectList.css';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
+import allTypes from '../../types/index';
+
 import ProjectItem from '../ProjectItem/ProjectItem';
 
 export const ProjectList = ({ projects }) => {
@@ -22,14 +24,6 @@ export const ProjectList = ({ projects }) => {
   );
 };
 
-ProjectList.propTypes = {
-  projects: PropTypes.arrayOf(PropTypes.shape({
-    name: PropTypes.string.isRequired,
-    url: PropTypes.string.isRequired,
-    imageUrl: PropTypes.string.isRequired,
-    technologies: PropTypes.string.isRequired,
-    urlCode: PropTypes.string.isRequired,
-  })).isRequired,
-};
+ProjectList.propTypes = allTypes;
 
 export default ProjectList;
