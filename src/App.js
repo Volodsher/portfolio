@@ -10,7 +10,13 @@ function App() {
       <h1 className="header">
         Volodsher&rsquo;s Portfolio
       </h1>
+      <a className="App-link" href="https://github.com/Volodsher/portfolio">
+        Portfolio code
+      </a>
       <ProjectList projects={projects} />
+      <div className="footer">
+        2019 - 2020 &#169;Volodsher
+      </div>
     </div>
   );
 }
