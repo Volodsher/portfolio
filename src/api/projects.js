@@ -17,7 +17,7 @@ export const projects = [
     name: 'Todo app',
     url: 'https://volodsher.github.io/react_todo-app/',
     imageUrl: todos,
-    technologies: 'React.js, JS, CSS, JSX',
+    technologies: 'Drupal 8, CSS',
     urlCode: 'https://github.com/Volodsher/react_todo-app/tree/dvlpr-todoApp',
   },
   {
