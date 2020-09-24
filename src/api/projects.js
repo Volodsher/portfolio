@@ -9,7 +9,7 @@ export const projects = [
     name: 'Art project',
     url: 'http://chaykovska.com.ua',
     imageUrl: art,
-    technologies: 'React.js, JS, CSS, JSX',
+    technologies: 'Drupal 8, CSS',
     urlCode: '',
   },
   {
@@ -17,7 +17,7 @@ export const projects = [
     name: 'Todo app',
     url: 'https://volodsher.github.io/react_todo-app/',
     imageUrl: todos,
-    technologies: 'Drupal 8, CSS',
+    technologies: 'React.js, JS, CSS, JSX',
     urlCode: 'https://github.com/Volodsher/react_todo-app/tree/dvlpr-todoApp',
   },
   {
