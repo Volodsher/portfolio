@@ -15,7 +15,7 @@ function App() {
       </a>
       <ProjectList projects={projects} />
       <div className="footer">
-        2019 - 2020 &#169;Volodsher
+        2019 - 2021 &#169;Volodsher
       </div>
     </div>
   );
