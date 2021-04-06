@@ -15,10 +15,10 @@ export const projects = [
   {
     id: 1,
     name: 'Todo app',
-    url: 'https://volodsher.github.io/react_todo-app/',
+    url: 'https://volodsher.github.io/todo/',
     imageUrl: todos,
-    technologies: 'React.js, JS, CSS, JSX',
-    urlCode: 'https://github.com/Volodsher/react_todo-app/tree/dvlpr-todoApp',
+    technologies: 'React.js, Redux, JS, CSS, JSX',
+    urlCode: 'https://github.com/Volodsher/todo/',
   },
   {
     id: 2,
